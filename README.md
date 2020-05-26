@@ -12,13 +12,13 @@ This repository contains separate directories for the attack, defense, and the d
 
 #### Attack
 
-##### attack with n-gram
+##### 1.Attack with N-Gram
 ![attack model 1](https://github.com/haoliutj/MitigateFileInjectionAttacks/blob/master/ngramFileInjection.jpg)
 
-##### attack with rnn
+##### 2.Attack with RNN
 ![attack model 2](https://github.com/haoliutj/MitigateFileInjectionAttacks/blob/master/rnnFileInjection.jpg)
 
-The ```attack``` directory contains the code for the deep learning classification models, data preparation of the input to the models, and some related utility functions.
+The ```attack``` directory contains two attack methods 'ngrams' and 'rnn'. The code in each method directory includes text generation model, post process function of generated text, and corresponding utility functions.
 
 #### Defense
 
