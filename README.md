@@ -22,21 +22,13 @@ The ```attack``` directory contains two attack methods 'ngrams' and 'rnn'. The c
 
 #### Defense
 
-The `defense` directory contains the code for the proof-of-concept defense against our attack.   
+The `defense` directory contains the code for the text_semantic based defense against the attack.   
 
-#### Voice Traffic Collection Tool
-
-![collection tool](https://github.com/SmartHomePrivacyProject/DeepVCFingerprinting/blob/master/collection%20tool.png)
-
-The ```collection_tool``` directory contains the code and setup instructions for the collection tool that we use to collect our voice traffic data.  There are also utilities to generate synthetic voice audio files that use text-to-speech APIs and the list of common smart speaker queries in CSV format.  
 
 #### Datasets
 
 The `datasets` has information about where you can find and download the datasets.
 
-#### Additional Information
-
-The `additional_info` has information about the structures of neural networks, lists of voice commands we studied, tuned hyperparameters.  
 
 ## Requirements
 
@@ -50,12 +42,10 @@ See the project's directories for usage information.
 
 When reporting results that use the dataset or code in this repository, please cite:
 
-Chenggang Wang, Sean Kennedy, Haipeng Li, King Hudson, Gowtham Atluri, Xuetao Wei, Wenhai Sun, Boyang Wang, *“Fingerprinting Encrypted Voice Traffic on Smart Speakers with Deep Learning,”* ACM Conference on Security and Privacy in Wireless and Mobile Network (**ACM WiSec 2020**), July, 2020. (The first two authors contribute equally in this paper)
+Hao Liu, Boyang Wang, *“Mitigating File-Injection Attacks with Natural Language Processing,”* The 6th ACM International Workshop on Security and Privacy Analytics 2020 (**IWSPA 2020**).
 
 ## Contacts
 
-Chenggang Wang, wang2c9@mail.uc.edu, University of Cincinnati
-
-Sean Kennedy, kenneds6@mail.uc.edu, Leidos
+Hao Liu, liu3ho@mail.uc.edu, University of Cincinnati
 
 Boyang Wang, boyang.wang@uc.edu, University of Cincinnati
