@@ -15,4 +15,4 @@ You can download the dataset from the link https://www.cs.cmu.edu/~enron/. We pr
 
 #### Science Dataset
 
-We obtain this dataset from the library `nltk`. We provide this dataset and corresponding top 5000 frequency keywords file (`science.txt`, `science_top_keyword.txt`). The usage of this dataset is similar to Enron Email Dataset.
+We obtain this dataset from the library `nltk`. We provide this dataset and corresponding top 5000 frequency keywords file (`science.txt` (2.2MB), `science_top_keyword.txt`). The usage of this dataset is similar to Enron Email Dataset.
