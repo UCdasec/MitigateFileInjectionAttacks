@@ -1,6 +1,6 @@
 # Usage
 
-Instead of separating model training, text generation and text post process steps, we integrate all those steps into one function with ngram model, since it easier to customized inside the model.
+Instead of separating model training, text generation and text post process steps, we integrate all those steps into one function with ngram model, since it easier to customized inside the model compare to rnn model.
 
 
 #### Generate text
@@ -9,4 +9,4 @@ Instead of separating model training, text generation and text post process step
 
 -`python3 gen_text.py`-
 
-The texts generated here can be used to perform File-Injection Attacks directly. 
+The texts generated here can be used to perform File-Injection Attacks directly.

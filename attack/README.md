@@ -1,9 +1,9 @@
 # Attacks
 
-##### 1.Perform File-Injection Attacks with N-Gram model
+##### 1.Perform File-Injection Attacks with N-Gram model.
 
--`ngrams`
+Find specific code in directory -`ngrams`
 
 ##### 2.Perform File-Injection Attacks with RNN (LSTM) model
 
--`rnn`
+Find specific code in directory -`rnn`
