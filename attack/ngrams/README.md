@@ -5,8 +5,8 @@ Instead of separating model training, text generation and text post process step
 
 #### Generate text
 
-##### 1.Generate text from ngram model in directory `ngrams`
+##### 1.Generate text from ngram model in directory `ngrams`.
 
 -`python3 gen_text.py`-
 
-The texts generated here can be used to perform File-Injection Attacks directly.
+The texts generated here can be used to perform File-Injection Attacks directly.(All other files are related functional files)
